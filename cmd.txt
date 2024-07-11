@@ -1,0 +1,25 @@
+# các lệnh liên quan đến nodejs
+
+# Khởi tạo dự án
+npm init
+
+# Cài đặt gói module express
+npm install express
+
+# chạy ứng dụng node js
+node index.js
+
+---
+
+# các lệnh liên quan đến Docker
+
+# run Docker Desktop
+
+# docker build
+docker build -t demo2:tag1 .
+
+docker images
+
+docker run --name demo2 -p 5000:5000 -d demo2:tag1
+
+docker ps
